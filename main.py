@@ -26,4 +26,3 @@ def get_posts():
 def create_posts(post: Post):
     print(post)
     return {"data":"new post"}
-  
