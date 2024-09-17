@@ -48,7 +48,3 @@ def get_post(id: int):
         #response.status_code = status.HTTP_404_NOT_FOUND
         #return {"message": f"post with id: {id} was not found"}
     return {"post-details": post}
-
-
-
-
